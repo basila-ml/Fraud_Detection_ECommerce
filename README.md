@@ -14,6 +14,7 @@ Each row describes a single transaction, including:
 - Label: `Is Fraudulent` (1 = fraud, 0 = genuine)
 
 > The raw CSV (`Fraudulent_E-Commerce_Transaction_Data.csv`) is not included in this repo. Place it in the project root before running the notebook.
+You can download the dataset from the [Kaggle Fraudulent E-Commerce Transactions Dataset](https://www.kaggle.com/datasets/shriyashjagtap/fraudulent-e-commerce-transactions).
 
 ## What's inside the notebook
 
