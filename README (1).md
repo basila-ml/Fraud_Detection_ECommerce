@@ -56,21 +56,3 @@ Install with:
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn xgboost
 ```
-
-## Usage
-
-1. Place `Fraudulent_E-Commerce_Transaction_Data.csv` in the same directory as the notebook.
-2. Open `Fraud_Detection_ECommerce.ipynb` in Jupyter or Google Colab.
-3. Run all cells top to bottom.
-
-> Note: The XGBoost section installs the package via `pip install xgboost -q` inside the notebook, so it requires internet access (e.g., Google Colab or a local Jupyter install with connectivity).
-
-## Possible next steps
-
-- Track behavioral features per customer over time (transaction velocity, deviation from historical spending pattern) rather than per-transaction snapshots only.
-- Calibrate predicted probabilities for use in a real decisioning threshold.
-- Try cost-sensitive learning or threshold tuning aligned to the business cost of false positives vs. false negatives.
-
-## License
-
-Add a license of your choice (e.g., MIT) here.
